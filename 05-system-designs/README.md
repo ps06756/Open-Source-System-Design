@@ -22,7 +22,7 @@ More complex systems with multiple components and trade-offs.
 | [Twitter / X](intermediate/01-twitter/README.md) | Feed generation, fan-out |
 | [Instagram](intermediate/02-instagram/README.md) | Image storage, CDN |
 | [WhatsApp](intermediate/03-whatsapp/README.md) | Real-time messaging, presence |
-| [Notification System](intermediate/04-notifications/README.md) | Push, priority queues |
+| [Notification System](intermediate/04-notification-system/README.md) | Push, priority queues |
 | [News Feed](intermediate/05-news-feed/README.md) | Ranking, personalization |
 | [Typeahead](intermediate/06-typeahead/README.md) | Trie, prefix matching |
 | [Web Crawler](intermediate/07-web-crawler/README.md) | Politeness, deduplication |
@@ -41,7 +41,7 @@ Complex, large-scale systems with sophisticated requirements.
 | [Payment System](advanced/07-payment-system/README.md) | ACID, idempotency |
 | [Hotel Booking](advanced/08-hotel-booking/README.md) | Inventory, double booking |
 | [Search Engine](advanced/09-search-engine/README.md) | Crawling, indexing, ranking |
-| [Ad Click Aggregator](advanced/10-ad-aggregator/README.md) | Stream processing |
+| [Ad Click Aggregator](advanced/10-ad-click-aggregator/README.md) | Stream processing |
 | [Task Scheduler](advanced/11-task-scheduler/README.md) | Cron, distribution |
 | [Stock Exchange](advanced/12-stock-exchange/README.md) | Order matching, latency |
 
