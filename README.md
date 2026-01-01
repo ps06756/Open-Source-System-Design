@@ -118,7 +118,7 @@ Learn how to approach and ace system design interviews.
 | [Trade-offs](06-interview-strategy/06-trade-offs/README.md) | Articulating decisions |
 | [Common Mistakes](06-interview-strategy/07-common-mistakes/README.md) | What to avoid |
 
-### Resources
+### [Resources](resources/README.md)
 | Resource | Description |
 |----------|-------------|
 | [Numbers Cheat Sheet](resources/numbers-cheat-sheet.md) | Latency, throughput, storage numbers |
