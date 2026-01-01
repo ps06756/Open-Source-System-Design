@@ -50,12 +50,12 @@ Understand architectural patterns used in production systems.
 
 | Pattern | Description |
 |---------|-------------|
-| [Microservices vs Monolith](04-design-patterns/01-microservices-monolith/README.md) | When to use each |
+| [Microservices](04-design-patterns/01-microservices/README.md) | When and how to decompose |
 | [Event-Driven Architecture](04-design-patterns/02-event-driven/README.md) | Async, event sourcing |
-| [CQRS](04-design-patterns/03-cqrs/README.md) | Separating reads and writes |
-| [Saga Pattern](04-design-patterns/04-saga/README.md) | Distributed transactions |
+| [CQRS & Event Sourcing](04-design-patterns/03-cqrs-event-sourcing/README.md) | Separating reads and writes |
+| [Saga Pattern](04-design-patterns/04-saga-pattern/README.md) | Distributed transactions |
 | [Circuit Breaker](04-design-patterns/05-circuit-breaker/README.md) | Fault tolerance |
-| [Sidecar & Ambassador](04-design-patterns/06-sidecar-ambassador/README.md) | Service mesh patterns |
+| [Sidecar & Service Mesh](04-design-patterns/06-sidecar-service-mesh/README.md) | Service mesh patterns |
 
 ### Module 5: System Designs
 Practice with real interview questions, organized by difficulty.
@@ -63,58 +63,45 @@ Practice with real interview questions, organized by difficulty.
 #### Beginner
 | System | Key Concepts |
 |--------|--------------|
-| [URL Shortener](05-system-designs/beginner/01-url-shortener/README.md) | Hashing, encoding, databases |
-| [Pastebin](05-system-designs/beginner/02-pastebin/README.md) | Object storage, expiration |
-| [Rate Limiter](05-system-designs/beginner/03-rate-limiter/README.md) | Algorithms, distributed limiting |
-| [Key-Value Store](05-system-designs/beginner/04-key-value-store/README.md) | Storage engines, replication |
+| [URL Shortener](05-system-designs/beginner/url-shortener.md) | Hashing, encoding, databases |
+| [Pastebin](05-system-designs/beginner/pastebin.md) | Object storage, expiration |
+| [Rate Limiter](05-system-designs/beginner/rate-limiter.md) | Algorithms, distributed limiting |
 
 #### Intermediate
 | System | Key Concepts |
 |--------|--------------|
-| [Twitter / X](05-system-designs/intermediate/01-twitter/README.md) | Feed generation, fan-out |
-| [Instagram](05-system-designs/intermediate/02-instagram/README.md) | Image storage, CDN |
-| [WhatsApp](05-system-designs/intermediate/03-whatsapp/README.md) | Real-time messaging, presence |
-| [Notification System](05-system-designs/intermediate/04-notification-system/README.md) | Push, priority queues |
-| [News Feed](05-system-designs/intermediate/05-news-feed/README.md) | Ranking, personalization |
-| [Typeahead](05-system-designs/intermediate/06-typeahead/README.md) | Trie, prefix matching |
-| [Web Crawler](05-system-designs/intermediate/07-web-crawler/README.md) | Politeness, deduplication |
+| [Twitter / X](05-system-designs/intermediate/twitter.md) | Feed generation, fan-out |
+| [Instagram](05-system-designs/intermediate/instagram.md) | Image storage, CDN |
+| [WhatsApp](05-system-designs/intermediate/whatsapp.md) | Real-time messaging, presence |
+| [YouTube](05-system-designs/intermediate/youtube.md) | Video processing, streaming |
+| [Uber](05-system-designs/intermediate/uber.md) | Location, matching, ETA |
+| [Dropbox](05-system-designs/intermediate/dropbox.md) | Sync, chunking, dedup |
+| [Netflix](05-system-designs/intermediate/netflix.md) | CDN, adaptive streaming |
 
 #### Advanced
 | System | Key Concepts |
 |--------|--------------|
-| [YouTube](05-system-designs/advanced/01-youtube/README.md) | Video processing, streaming |
-| [Uber](05-system-designs/advanced/02-uber/README.md) | Location, matching, ETA |
-| [Google Maps](05-system-designs/advanced/03-google-maps/README.md) | Graph algorithms, tiles |
-| [Dropbox](05-system-designs/advanced/04-dropbox/README.md) | Sync, chunking, dedup |
-| [Distributed Cache](05-system-designs/advanced/05-distributed-cache/README.md) | Consistent hashing |
-| [Distributed Queue](05-system-designs/advanced/06-distributed-queue/README.md) | Ordering, delivery |
-| [Payment System](05-system-designs/advanced/07-payment-system/README.md) | ACID, idempotency |
-| [Hotel Booking](05-system-designs/advanced/08-hotel-booking/README.md) | Inventory, double booking |
-| [Search Engine](05-system-designs/advanced/09-search-engine/README.md) | Crawling, indexing, ranking |
-| [Ad Click Aggregator](05-system-designs/advanced/10-ad-click-aggregator/README.md) | Stream processing |
-| [Task Scheduler](05-system-designs/advanced/11-task-scheduler/README.md) | Cron, distribution |
-| [Stock Exchange](05-system-designs/advanced/12-stock-exchange/README.md) | Order matching, latency |
+| [Google Search](05-system-designs/advanced/google-search.md) | Crawling, indexing, ranking |
+| [Distributed Cache](05-system-designs/advanced/distributed-cache.md) | Consistent hashing |
+| [Payment System](05-system-designs/advanced/payment-system.md) | ACID, idempotency |
+| [Ad Platform](05-system-designs/advanced/ad-platform.md) | Real-time bidding, targeting |
+| [Stock Exchange](05-system-designs/advanced/stock-exchange.md) | Order matching, latency |
+| [Gaming Platform](05-system-designs/advanced/gaming-platform.md) | Real-time sync, matchmaking |
 
 ### Module 6: Interview Strategy
 Learn how to approach and ace system design interviews.
 
 | Topic | Description |
 |-------|-------------|
-| [Framework](06-interview-strategy/01-framework/README.md) | Step-by-step approach |
-| [Requirements Gathering](06-interview-strategy/02-requirements/README.md) | Clarifying questions |
-| [Capacity Estimation](06-interview-strategy/03-estimation/README.md) | Quick math techniques |
-| [High-Level Design](06-interview-strategy/04-high-level-design/README.md) | Starting broad |
-| [Deep Dives](06-interview-strategy/05-deep-dive/README.md) | When and how |
-| [Trade-offs](06-interview-strategy/06-trade-offs/README.md) | Articulating decisions |
-| [Common Mistakes](06-interview-strategy/07-common-mistakes/README.md) | What to avoid |
+| [Framework & Approach](06-interview-strategy/01-framework-approach.md) | Step-by-step methodology |
+| [Requirements Gathering](06-interview-strategy/02-requirements-gathering.md) | Clarifying questions |
+| [Estimation Techniques](06-interview-strategy/03-estimation-techniques.md) | Quick math techniques |
+| [Communication Tips](06-interview-strategy/04-communication-tips.md) | Collaborating with interviewer |
+| [Common Mistakes](06-interview-strategy/05-common-mistakes.md) | What to avoid |
+| [Practice Problems](06-interview-strategy/06-practice-problems.md) | Self-assessment exercises |
+| [Mock Interview Guide](06-interview-strategy/07-mock-interview-guide.md) | Simulating real interviews |
 
-### [Resources](resources/README.md)
-| Resource | Description |
-|----------|-------------|
-| [Numbers Cheat Sheet](resources/numbers-cheat-sheet.md) | Latency, throughput, storage numbers |
-| [Patterns Cheat Sheet](resources/patterns-cheat-sheet.md) | Common design patterns |
-| [Technology Comparison](resources/technology-comparison.md) | When to use what |
-| [Interview Template](resources/interview-template.md) | Step-by-step guide |
+---
 
 ## How to Use
 
@@ -124,8 +111,7 @@ Learn how to approach and ace system design interviews.
 
 Each topic includes:
 - Detailed explanations with real-world context
-- Diagrams and visualizations
-- Code examples where applicable
+- Diagrams and visualizations (ASCII art)
 - Common interview questions
 - Trade-off discussions
 
