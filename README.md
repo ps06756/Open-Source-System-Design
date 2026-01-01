@@ -84,7 +84,7 @@ Practice with real interview questions, organized by difficulty.
 | [Twitter / X](05-system-designs/intermediate/01-twitter/README.md) | Feed generation, fan-out |
 | [Instagram](05-system-designs/intermediate/02-instagram/README.md) | Image storage, CDN |
 | [WhatsApp](05-system-designs/intermediate/03-whatsapp/README.md) | Real-time messaging, presence |
-| [Notification System](05-system-designs/intermediate/04-notifications/README.md) | Push, priority queues |
+| [Notification System](05-system-designs/intermediate/04-notification-system/README.md) | Push, priority queues |
 | [News Feed](05-system-designs/intermediate/05-news-feed/README.md) | Ranking, personalization |
 | [Typeahead](05-system-designs/intermediate/06-typeahead/README.md) | Trie, prefix matching |
 | [Web Crawler](05-system-designs/intermediate/07-web-crawler/README.md) | Politeness, deduplication |
@@ -101,7 +101,7 @@ Practice with real interview questions, organized by difficulty.
 | [Payment System](05-system-designs/advanced/07-payment-system/README.md) | ACID, idempotency |
 | [Hotel Booking](05-system-designs/advanced/08-hotel-booking/README.md) | Inventory, double booking |
 | [Search Engine](05-system-designs/advanced/09-search-engine/README.md) | Crawling, indexing, ranking |
-| [Ad Click Aggregator](05-system-designs/advanced/10-ad-aggregator/README.md) | Stream processing |
+| [Ad Click Aggregator](05-system-designs/advanced/10-ad-click-aggregator/README.md) | Stream processing |
 | [Task Scheduler](05-system-designs/advanced/11-task-scheduler/README.md) | Cron, distribution |
 | [Stock Exchange](05-system-designs/advanced/12-stock-exchange/README.md) | Order matching, latency |
 
@@ -112,19 +112,19 @@ Learn how to approach and ace system design interviews.
 |-------|-------------|
 | [Framework](06-interview-strategy/01-framework/README.md) | Step-by-step approach |
 | [Requirements Gathering](06-interview-strategy/02-requirements/README.md) | Clarifying questions |
-| [Capacity Estimation](06-interview-strategy/03-capacity/README.md) | Quick math techniques |
-| [High-Level Design](06-interview-strategy/04-high-level/README.md) | Starting broad |
-| [Deep Dives](06-interview-strategy/05-deep-dives/README.md) | When and how |
-| [Trade-offs](06-interview-strategy/06-tradeoffs/README.md) | Articulating decisions |
-| [Common Mistakes](06-interview-strategy/07-mistakes/README.md) | What to avoid |
+| [Capacity Estimation](06-interview-strategy/03-estimation/README.md) | Quick math techniques |
+| [High-Level Design](06-interview-strategy/04-high-level-design/README.md) | Starting broad |
+| [Deep Dives](06-interview-strategy/05-deep-dive/README.md) | When and how |
+| [Trade-offs](06-interview-strategy/06-trade-offs/README.md) | Articulating decisions |
+| [Common Mistakes](06-interview-strategy/07-common-mistakes/README.md) | What to avoid |
 
 ### Resources
 | Resource | Description |
 |----------|-------------|
-| [Cheat Sheets](resources/cheat-sheets/) | Quick reference guides |
-| [Diagrams](resources/diagrams/) | Reusable architecture diagrams |
-| [Interview Rubric](resources/interview-rubric.md) | How companies evaluate |
-| [Reading List](resources/reading-list.md) | Papers, blogs, books |
+| [Numbers Cheat Sheet](resources/numbers-cheat-sheet.md) | Latency, throughput, storage numbers |
+| [Patterns Cheat Sheet](resources/patterns-cheat-sheet.md) | Common design patterns |
+| [Technology Comparison](resources/technology-comparison.md) | When to use what |
+| [Interview Template](resources/interview-template.md) | Step-by-step guide |
 
 ## How to Use This Course
 
